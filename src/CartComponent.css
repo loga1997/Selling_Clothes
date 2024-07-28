@@ -1,0 +1,34 @@
+.container {
+    max-width: 800px;
+    margin: 0 auto;
+}
+
+.product-list-item {
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    overflow: hidden;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+}
+
+.product-list-item .card-body {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.product-list-item img {
+    max-height: 150px;
+    object-fit: cover;
+}
+
+.product-list-item .card-title {
+    font-size: 1.2em;
+}
+
+.product-list-item .card-text {
+    font-size: 1em;
+}
+
+.product-list-item .btn {
+    font-size: 0.9em;
+}
