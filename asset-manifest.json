@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/loga1997/Selling_Clothes/static/css/main.90bf10f6.css",
+    "main.js": "/loga1997/Selling_Clothes/static/js/main.c5c523b5.js",
+    "static/js/453.8bb47aec.chunk.js": "/loga1997/Selling_Clothes/static/js/453.8bb47aec.chunk.js",
+    "index.html": "/loga1997/Selling_Clothes/index.html",
+    "main.90bf10f6.css.map": "/loga1997/Selling_Clothes/static/css/main.90bf10f6.css.map",
+    "main.c5c523b5.js.map": "/loga1997/Selling_Clothes/static/js/main.c5c523b5.js.map",
+    "453.8bb47aec.chunk.js.map": "/loga1997/Selling_Clothes/static/js/453.8bb47aec.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.90bf10f6.css",
+    "static/js/main.c5c523b5.js"
+  ]
+}
