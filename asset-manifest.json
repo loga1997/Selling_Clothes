@@ -1,15 +1,15 @@
 {
   "files": {
-    "main.css": "/Selling_Clothes/static/css/main.90bf10f6.css",
-    "main.js": "/Selling_Clothes/static/js/main.1378b333.js",
+    "main.css": "/Selling_Clothes/static/css/main.d58aa61b.css",
+    "main.js": "/Selling_Clothes/static/js/main.33981165.js",
     "static/js/453.8bb47aec.chunk.js": "/Selling_Clothes/static/js/453.8bb47aec.chunk.js",
     "index.html": "/Selling_Clothes/index.html",
-    "main.90bf10f6.css.map": "/Selling_Clothes/static/css/main.90bf10f6.css.map",
-    "main.1378b333.js.map": "/Selling_Clothes/static/js/main.1378b333.js.map",
+    "main.d58aa61b.css.map": "/Selling_Clothes/static/css/main.d58aa61b.css.map",
+    "main.33981165.js.map": "/Selling_Clothes/static/js/main.33981165.js.map",
     "453.8bb47aec.chunk.js.map": "/Selling_Clothes/static/js/453.8bb47aec.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.90bf10f6.css",
-    "static/js/main.1378b333.js"
+    "static/css/main.d58aa61b.css",
+    "static/js/main.33981165.js"
   ]
 }
