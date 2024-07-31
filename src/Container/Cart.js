@@ -27,9 +27,10 @@ export default function CartComponent() {
             {cartItems.length === 0 ? (
                 <p>Your cart is empty</p>
             ) : (
+                <div className='col-md-6'>
                 <div className="row">
                     {cartItems.map(item => (
-                        <div key={item.id} className="col-md-6 mb-4">
+                        <div key={item.id} className="col-md-12 mb-4">
                             <ProductListItem 
                                 {...item}
                                 handleIncrease={() => handleIncrease(item)}
@@ -39,10 +40,18 @@ export default function CartComponent() {
                         </div>
                         
                     ))}
+                 
                   <button className='btn btn-success' onClick={()=>navigate('/checkout')}>Go To Checkout</button>
+                </div>
+               
                 </div>
                 
             )}
+             <div className='container'>
+                        <input type='text' placeholder='Enter name'/>
+                        <input type='text' placeholder='Enter Address'/>
+                        <input type='text' placeholder='Enter Phone'/>
+                    </div >
         </div>
     );
 }

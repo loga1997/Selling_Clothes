@@ -19,7 +19,7 @@ export default function Home()
                    <Route path='' element={<Checkout/>}></Route>
                     <Route path=':id' element={<Checkout/>}></Route>
                 </Route>
-           <Route path='/success' element={<Success/>}></Route>
+           <Route path='/success/:id' element={<Success/>}></Route>
                 </Routes>
            
         </div>

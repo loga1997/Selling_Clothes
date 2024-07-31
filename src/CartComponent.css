@@ -32,3 +32,11 @@
 .product-list-item .btn {
     font-size: 0.9em;
 }
+/* .product-list-item{width:50%;} */
+.product-list-item .d-flex.justify-center{justify-content: space-between;font-weight: 600;font-size:17px;}
+.product-list-item .btn-outline-secondary {
+    padding: 4px 9px;
+    font-weight: 800;
+    font-size: 12px;
+}
+.btn-danger{margin-right:10px;}

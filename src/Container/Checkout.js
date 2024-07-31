@@ -6,7 +6,7 @@ import { addItem, removeItem, decreaseItem } from '../redux/reducer/cart';
 import { productList } from '../data/ProductList';
 export default function Checkout() {
     const params = useParams();
-
+  
     const list = useSelector(state => state.cart.list);
     const [state, setState] = useState(
         params.id ?[ {
@@ -48,7 +48,7 @@ export default function Checkout() {
                             handleRemove={() => handleRemove(item)}
                         />
                     ))}
-                    <button className='btn btn-success' onClick={() => navigate('/success')}>Place Order</button>
+                    {/* <button className='btn btn-success' onClick={() => navigate('/success')}>Place Order</button> */}
                 </>
             )}
         </>
