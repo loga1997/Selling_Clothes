@@ -11,6 +11,7 @@ export default function Home()
     return(
         <div>
             <Header/>
+            {/* <Dasboard/> */}
             <Routes>
                 <Route path='/' element={<Dasboard/>}></Route>
                 <Route path='/Product/:id' element={<Product />} />                

@@ -12,6 +12,7 @@ export default function Header() {
   
     useEffect(() => {
         // Fetch the product list from a fake API or backend service
+        navigate('/')
         dispatch(setProducts(productList));
       }, []);
     
